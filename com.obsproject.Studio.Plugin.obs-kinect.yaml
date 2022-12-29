@@ -10,8 +10,8 @@ build-options:
   prefix: /app/plugins/obs-kinect
 modules:
 
+  - shared-modules/libusb/libusb.json
   - name: libusb
-    shared-moduls/libusb/libusb.json:
 
   - name: glfw
     buildsystem: cmake
